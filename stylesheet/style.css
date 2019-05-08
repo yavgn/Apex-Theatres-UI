@@ -1,6 +1,60 @@
 body{
 	background-color: #2B2B2B;
 	margin: 0;
+	font-family: arial;
+}
+.logo{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+/*.logo-a{
+	padding-top: 15px;
+}*/
+
+header{
+	width: 100%;
+	background-size: cover;
+	background-color: #111;
+}
+
+.header{
+	max-width: 120rem;
+	width:90%;
+	margin: 0 auto;
+}
+
+
+
+nav{
+	display: flex;
+	/*justify-content: space-between;*/
+	align-items: center;
+	font-size: 1.6rem;
+}
+
+nav ul{
+	display: flex;
+}
+
+nav ul li{
+	list-style: none;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 1rem 0;
+	margin: 0 3rem;
+	position: relative;
+	letter-spacing: 2px;
+}
+.membership-a{
+	color: #f51a1a;
+}
+
+/*body{
+	background-color: #2B2B2B;
+	margin: 0;
 }
 .logo{
 	margin-left: 30px;
@@ -16,6 +70,10 @@ a{
 	margin-right: 15px;
 	margin-bottom: 10px;
 }
-.header{
-	background-color: #111;
+.membership-a{
+
 }
+.menu-li{
+	list-style: none;
+	display: block;
+}*/
