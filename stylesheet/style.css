@@ -1,79 +1,18 @@
+/*ass2*/
 body{
-	background-color: #2B2B2B;
 	margin: 0;
-	font-family: arial;
 }
-.logo{
-	margin-top: 0;
-	margin-bottom: 0;
-}
-/*.logo-a{
-	padding-top: 15px;
-}*/
-
-header{
-	width: 100%;
-	background-size: cover;
-	background-color: #111;
-}
-
-.header{
-	max-width: 120rem;
-	width:90%;
+.menu{
+	width: 1200px;
+	height: 80px;
+	background-color: #0C0C0C;
 	margin: 0 auto;
 }
-
-
-
-nav{
+.menu-items{
 	display: flex;
-	/*justify-content: space-between;*/
+}
+.menu-items-a{
+	flex: 1;
+	text-decoration: none;
 	align-items: center;
-	font-size: 1.6rem;
 }
-
-nav ul{
-	display: flex;
-}
-
-nav ul li{
-	list-style: none;
-}
-
-nav ul li a{
-	text-decoration: none;
-	color: white;
-	padding: 1rem 0;
-	margin: 0 3rem;
-	position: relative;
-	letter-spacing: 2px;
-}
-.membership-a{
-	color: #f51a1a;
-}
-
-/*body{
-	background-color: #2B2B2B;
-	margin: 0;
-}
-.logo{
-	margin-left: 30px;
-	margin-right: 15px;
-}
-.logo-a{
-	padding-top: 15px;
-}
-a{
-	text-decoration: none;
-	color: white;
-	margin-left: 15px;
-	margin-right: 15px;
-	margin-bottom: 10px;
-}
-.membership-a{
-
-}
-.menu-li{
-	list-style: none;
-	display: block;
-}*/
