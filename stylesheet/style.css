@@ -1,18 +1,63 @@
 /*ass2*/
-body{
-	margin: 0;
-}
-.menu{
-	width: 1200px;
-	height: 80px;
-	background-color: #0C0C0C;
-	margin: 0 auto;
-}
-.menu-items{
-	display: flex;
-}
-.menu-items-a{
-	flex: 1;
+*{
 	text-decoration: none;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+body{
+	background-color: #0c0c0c;
+}
+
+/*---------------------------------------------menu-----------------------------------*/
+.menu-container{
+	display: flex;
+	background-color: #0c0c0c;
+	width: 1200px;
+	margin: 0 auto;
 	align-items: center;
+}
+.flex-item{
+	flex: 1;
+	color: white;
+	text-align: center;
+}
+.search-box{
+	flex: 1;
+	height: 20px;
+	margin-left: 5%;
+	border: 2px solid white;
+	border-radius: 50px;
+	padding: 0 5px;
+	color: white;
+	background-color: #0c0c0c;
+}
+.search-box::placeholder{
+	color: white;
+}
+
+/*---------------------------------------------index.html-----------------------------------*/
+.head-container{
+	margin: 0 auto;
+	background-image: url("images/erik-witsoe-647316-unsplash.jpg");
+	background-color: #1a1a1a;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+	width: 1200px;
+	color: white;
+}
+.head-content{
+	padding-top: 12.5%;
+}
+#head-content-head{
+	margin-left: 0;
+	font-size: 40px;
+	margin-bottom: 5px;
+}
+#head-content-para{
+	font-size: 20px;
+	margin-bottom: 15px;
+	font-family: 'Montserrat', sans-serif;
 }
