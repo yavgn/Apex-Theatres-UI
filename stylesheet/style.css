@@ -1,29 +1,29 @@
-/*ass2*/
 *{
 	text-decoration: none;
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;
 }
 body{
-	background-color: #0c0c0c;
+	background-color: #040404; 
 }
 
 /*---------------------------------------------menu-----------------------------------*/
 .menu-container{
 	display: flex;
-	background-color: #0c0c0c;
-	width: 1200px;
 	margin: 0 auto;
+	background-color: #040404;
+	width: 1200px;
 	align-items: center;
 }
 .flex-item{
 	flex: 1;
 	color: white;
 	text-align: center;
+	font-size: 20px;
 }
 .search-box{
 	flex: 1;
+	width: 100px;
 	height: 20px;
 	margin-left: 5%;
 	border: 2px solid white;
@@ -36,28 +36,184 @@ body{
 	color: white;
 }
 
+/*---------------------------------------------footer-----------------------------------*/
+.foot-container{
+	background-color: #e90022;
+	height: 250px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.foot-top-head{
+	padding-top: 10px;
+	text-align: center;
+	color: white;
+}
+.foot-content{
+	display: flex;
+	padding: 0 20px;
+}
+.foot-content-info{
+	flex: 1;
+	margin-top: 10px;
+	color: #040404;
+}
+.foot-content-info a{
+	color: white;
+}
+
 /*---------------------------------------------index.html-----------------------------------*/
 .head-container{
 	margin: 0 auto;
-	background-image: url("images/erik-witsoe-647316-unsplash.jpg");
+	height: 500px;
+	width: 1200px;
+	color: white;
+}
+#head-background-home{
+	background-image: url("https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
 	background-color: #1a1a1a;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	height: 500px;
 	width: 1200px;
-	color: white;
 }
-.head-content{
-	padding-top: 12.5%;
+#head-content-home{
+	
+	padding: 12.5% 20px;
 }
-#head-content-head{
+#head-content-head-home{
 	margin-left: 0;
 	font-size: 40px;
 	margin-bottom: 5px;
 }
-#head-content-para{
+#head-content-para-home{
 	font-size: 20px;
 	margin-bottom: 15px;
 	font-family: 'Montserrat', sans-serif;
+}
+.main-container{
+	margin: 0 auto;
+	width: 1200px;
+	padding: 20px 0;
+	background-color: #0c0c0c;
+
+}
+.main-head{
+	text-align: center;
+	color: white;
+	font-size: 35px;
+}
+
+/*---------------------------------------------locations.html-----------------------------------*/
+#head-background-local{
+	background-image: url("https://images.unsplash.com/photo-1515861209048-dae6a1e1ed56?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+	background-color: #1a1a1a;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+	width: 1200px;
+}
+.head-content-global{
+	padding-top: 17.5%;
+	font-size: 40px;
+	text-align: center;
+}
+.location-content{
+	display: flex;
+}
+.location-content-info{
+	padding: 0 20px;
+	flex: 1;
+}
+.location-content-info h2{
+	flex: 1;
+	color: #e90022;
+}
+.location-content-info a{
+	flex: 1;
+	color: white;
+}
+
+/*---------------------------------------------membership.html-----------------------------------*/
+#head-background-memb{
+	background-image: url("https://images.unsplash.com/photo-1510268148918-d9229ecdde08?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+	background-color: #1a1a1a;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+	width: 1200px;
+}
+.memb-perks-container{
+	color: white;
+	display: flex;
+}
+.memb-perk{
+	padding: 20px;
+	flex: 1;
+}
+#memb-perk-left-margin{
+	margin-left: 200px;
+}
+#memb-perk-right-margin{
+	margin-right: 200px;
+}
+
+/*---------------------------------------------movies.html-----------------------------------*/
+
+#head-background-movie{
+	background-image: url("https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80");
+	background-color: #1a1a1a;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+	width: 1200px;
+}
+
+/*---------------------------------------------snacks.html-----------------------------------*/
+#head-background-snack{
+	background-image: url("https://images.unsplash.com/photo-1543494407-bc4186ac7453?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+	background-color: #1a1a1a;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+	width: 1200px;
+}
+
+/*---------------------------------------------cards-----------------------------------*/
+.cards{
+	display: flex;
+	width: 200px;
+	height: 400px;
+}
+.card-content{
+	flex: 1;
+	color: white;
+	text-align: center;
+	margin: 20px;
+}
+.card-info{
+	padding-top: 10px;
+}
+.card-info a{
+	color: #e90022;
+}
+.snack-card-container{
+	margin: 0 auto;
+	width: 1080px;
+}
+.snack-cards{
+	display: flex;
+	width: 500px;
+	height: 400px;
+}
+.snack-card-content{
+	text-align: center;
+	margin: 20px;
+	flex: 1;
+	font-size: 30px;
+	color: white;
 }
